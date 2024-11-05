@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=DynaPuff:wght@400..700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Concert+One&family=DynaPuff:wght@400..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <menu>
+        <a class="href" href="work.html">WORK</a>
+        <a class="href" href="index.html">ABOUT</a>
+        <a class="href" href="contact.html">CONTACT</a>
+
+
+
+
+    </menu>
+
+
+
+    <main>
+        <h2>Hello</h2>
+        <p>my name is</p>
+        <h1>ADAM KOSTKA</h2>
+
+            <p>I am a web developer</p>
+            <button id="more">More information</button>
+    </main>
+
+    <div id="about">
+        <p> Cześć! Nazywam się Adam Kostka, jestem studentem informatyki i początkującym programistą, który z pasją
+            odkrywa świat technologii.
+        </p>
+        <p>Obecnie uczę się w Zespole szkół im Walerego Goetla, a swoje pierwsze kroki w programowaniu stawiałam w HTML
+            ,css i c++, które teraz są moimi ulubionymi językami. Uwielbiam tworzyć interaktywne aplikacje webowe i
+            jestem szczególnie zainteresowana frontendem, gdzie mogę łączyć swoją kreatywność z technologią.
+        </p>
+        <p>W ramach studiów oraz kursów online zdobyłem solidne podstawy w HTML, CSS, JavaScript i Python, a także
+            poznałam podstawy pracy z Git. Swoje umiejętności rozwijam przez realizację własnych projektów, takich jak
+            aplikacja do zarządzania zadaniami czy strona portfolio. Jestem osobą pełną zapału i szybko się uczę – nie
+            boję się wyzwań, a każdy nowy projekt traktuję jako szansę na rozwój.
+        </p>
+
+    </div>
+
+
+
+</body>
+
+<script>
+    $(document).ready(function () {
+
+
+
+        $("#more").click(function () {
+
+            $("#about").fadeToggle(300);
+
+        });
+
+
+    });
+
+
+
+</script>
+
+</html>
